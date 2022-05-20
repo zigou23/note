@@ -267,3 +267,22 @@ function reverse(arr){
 }
 ```
 
+#### 冒泡排序
+
+```js
+function sort(arr){ //从小到大
+    for(var i=0; i<arr.length-1; i++){
+        for(var j=0; j<arr.length-i-1; j++){
+            if(arr[j]>aarr[j+1]){
+                var temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+    return arr;
+}
+var arr1= sort([1,5,8,2]);
+console.log(arr1);
+```
+
